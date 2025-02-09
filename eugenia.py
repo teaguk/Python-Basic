@@ -6,8 +6,16 @@
 
 import streamlit as st
 
-st.title("a tale of :red[the girls] : da coding teacher:")
-st.write("")
+st.title("a tale of :blue[the girls] : da coding teacher:")
+
+# Input field for user's name
+name = st.text_input("Enter your name:")
+
+# Display greeting message at the top as soon as the user enters their name
+if name:
+    st.markdown(f"<h2 style='text-align: center; color: green;'>Hello, {name}! Enjoy the book! 😊</h2>", unsafe_allow_html=True)
+
+
 # Story text
 story = """
 Eugenia, Alice, Eiley, Yuna, and Tara were brilliant coders who had long heard whispers of the Evil Coding Teacher—a villain who was known for luring the most talented coders into his traps and keeping them locked in his digital dungeon. He had been a legend, one that no one had dared to challenge... until now.
@@ -35,7 +43,4 @@ The End... or is it?
 
 # Display the story using st.write
 st.write(story)
-
-
-
 

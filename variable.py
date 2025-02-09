@@ -59,16 +59,16 @@
 # usually used in this format, without variable it the input value is not saved
 # input() always saves the value as a str data type
 
-# var1 = 2
-# var2 = input("insert anything:")
-# print(var2)
-# print(type(var2))
+var1 = 2
+var2 = input("insert anything:")
+print(var2)
+print(type(var2))
 
-# var2=int(var2)
-# print(type(var2))
+var2=int(var2)
+print(type(var2))
 
-# sum=var1+var2
-# print(sum)
+sum=var1+var2
+print(sum)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
