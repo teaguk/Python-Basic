@@ -59,16 +59,16 @@
 # usually used in this format, without variable it the input value is not saved
 # input() always saves the value as a str data type
 
-var1 = 2
-var2 = input("insert anything:")
-print(var2)
-print(type(var2))
+# var1 = 2
+# var2 = input("insert anything:")
+# print(var2)
+# print(type(var2))
 
-var2=int(var2)
-print(type(var2))
+# var2=int(var2)
+# print(type(var2))
 
-sum=var1+var2
-print(sum)
+# sum=var1+var2
+# print(sum)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -93,13 +93,33 @@ print(sum)
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-print("hello.enter your name")
-name=input()
-print("welcome" ,name, "enter your age")
-age=input()
-result= 2025-int(age)
-print("you were born in",result,"enter your height")
-height=int(input())
+# print("hello.enter your name")
+# name=input()
+# print("welcome" ,name, "enter your age")
+# age=input()
+# result= 2025-int(age)
+# print("you were born in",result,"enter your height")
+# height=int(input())
 
-two_m=200-height
-print("there are", two_m,"cm left until 2m")
+# two_m=200-height
+# print("there are", two_m,"cm left until 2m")
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# +   add
+# -   subtract
+# *   multiply
+# /   divide (result is a float)
+# //  integer division (result is an int)
+# %   modulus (remainder)
+# **  exponent    (power)
+
+a = 10
+b = 3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
